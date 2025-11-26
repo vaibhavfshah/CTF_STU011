@@ -5,4 +5,8 @@ Then from those filtered books, search for those whose isbn10 column is from tha
 
 then after finding the book, filtered all reviews of that book.->89 reviews found for the book.
 
-Built a text classifier using weak labeling rules to separate suspicious vs genuine reviews. Used SHAP to identify the top 3 authenticity-indicative words and computed FLAG3.
+Built a classifier(logistic regression) using some labeling rules to separate suspicious vs genuine reviews. Used SHAP to identify the top 3 authenticity-indicative words and computed FLAG3.
+
+Idea that couldn't implement:
+Implement a LDA(Latent Dirichlet Allocation) model or some other topic model to extract topics present in the reviews.
+Then using those topics, do some manual analysis what topics correspond to fake, or what all fake reviews correspond mostly to what topics.
